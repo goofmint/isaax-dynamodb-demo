@@ -21,10 +21,12 @@ setInterval(async () => {
       id: {S: Date.now().toString()}
     }
   };
+  /*
   dynamodb.putItem(params).promise()
     .then((err, data) => {
       if (err) {
         console.error(err);
       }
     });
+  */
 }, 5000);
